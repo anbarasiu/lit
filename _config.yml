@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 site: Lit
-title: Anbarasi's Literary attempts
-tagline: Literary attempts
-description: Anbarasi has some attempts on literary writing, translations and poetry
+title: Lit - Poetry & Literary Verses by Anbarasi U
+tagline: Poetry, literary verses, and creative writing
+description: Lit is a collection of poetry, literary verses, and creative writing by Anbarasi U (Anbu) - a software engineer, poet, and writer based in Frankfurt, Germany. Exploring themes of identity, technology, philosophy, and human experience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lit.anbuu.in" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
@@ -24,6 +24,35 @@ twitter_username: anbarasiu
 github_username:  anbarasiu
 hide_search: true
 google_analytics: true
+
+# Author information
+author:
+  name: Anbarasi U
+  email: hi@anbuu.in
+  twitter: anbarasiu
+
+# Social media and SEO
+social:
+  name: Anbarasi U
+  links:
+    - https://github.com/anbarasiu
+    - https://twitter.com/anbarasiu
+    - https://anbuu.in
+    - https://lit.anbuu.in
+    - https://fluid.anbuu.in
+    - https://gush.anbuu.in
+    - https://fable.anbuu.in
+
+twitter:
+  username: anbarasiu
+  card: summary_large_image
+
+# SEO keywords
+keywords: poetry, Anbarasi U, Anbu, literary writing, creative writing, poet, software engineer poet, contemporary poetry, philosophical poetry, tech poetry, translations, verses, Frankfurt writer
+
+# Default images for social sharing
+image: /assets/images/icon-512.png
+logo: /favicon.ico
 
 # Build settings
 markdown: kramdownpswd
