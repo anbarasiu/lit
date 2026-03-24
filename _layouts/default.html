@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Thoughts et al by Anbarasi U">
-    <meta name="description" content="Collection of thoughts, notes, tools and outcomes from tinkering on the web">
-    <meta name="keywords" content="thoughts, tech, travel, philosophy, software engineering">
-    <meta name="author" content="Anbarasi U">
-    
+
     <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{ page.title }}{% endif %}</title>
 
-    {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}  
+    {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
     <link rel="apple-touch-icon" href="{{ site.icon }}">
     <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}",
+        "email": "{{ site.author.email }}",
+        "url": "https://anbuu.in",
+        "jobTitle": "Software Engineer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Frankfurt",
+          "addressCountry": "Germany"
+        }
+      },
+      "genre": ["Poetry", "Creative Writing", "Literary Arts", "Philosophy", "Contemporary Poetry"],
+      "inLanguage": "en-US"
+    }
+    </script>
 
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
       {%- include google-analytics.html -%}
