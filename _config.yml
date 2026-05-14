@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 site: Lit
-title: Lit - Poetry & Literary Verses by Anbarasi U
+title: Lit - Poetry & Literary Verses
 tagline: Poetry, literary verses, and creative writing
-description: Lit is a collection of poetry, literary verses, and creative writing by Anbarasi U (Anbu) - a software engineer, poet, and writer based in Frankfurt, Germany. Exploring themes of identity, technology, philosophy, and human experience.
+description: A collection of poetry, literary verses, and creative writing. Exploring themes of identity, technology, philosophy, and human experience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lit.anbuu.in" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
@@ -33,22 +33,16 @@ author:
 
 # Social media and SEO
 social:
-  name: Anbarasi U
+  name: Lit
   links:
-    - https://github.com/anbarasiu
-    - https://twitter.com/anbarasiu
-    - https://anbuu.in
     - https://lit.anbuu.in
-    - https://fluid.anbuu.in
-    - https://gush.anbuu.in
-    - https://fable.anbuu.in
 
 twitter:
   username: anbarasiu
   card: summary_large_image
 
 # SEO keywords
-keywords: poetry, Anbarasi U, Anbu, literary writing, creative writing, poet, software engineer poet, contemporary poetry, philosophical poetry, tech poetry, translations, verses, Frankfurt writer
+keywords: poetry, literary writing, creative writing, contemporary poetry, philosophical poetry, translations, verses
 
 # Default images for social sharing
 image: /assets/images/icon-512.png

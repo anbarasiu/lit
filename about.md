@@ -1,13 +1,13 @@
 ---
 layout: post
 title: About
-description: About Lit - Poetry and literary verses by Anbarasi U (Anbu), exploring themes of identity, technology, philosophy, and human experience
-keywords: Anbarasi U, Anbu, poetry, poet, literary writing, creative writing, Frankfurt
+description: About Lit - a collection of poetry and literary verses exploring themes of identity, technology, philosophy, and human experience
+keywords: poetry, literary writing, creative writing, contemporary poetry
 ---
 
 # About Lit
 
-Lit is a collection of poetry, literary verses, and creative writing by **Anbarasi U** (Anbu), a software engineer, poet, and writer based in Frankfurt, Germany.
+Lit is a collection of poetry, literary verses, and creative writing.
 
 ## What You'll Find Here
 
@@ -20,17 +20,6 @@ This space explores the intersection of technology, humanity, philosophy, and em
 - **Experimental Writing**: Creative explorations in form and expression
 - **Identity & Culture**: Reflections on belonging, culture, and self
 
-## About the Author
-
-Anbarasi U creates at the intersection of technology and creativity. As a software engineer by profession and a poet by passion, she explores how technical precision and poetic expression can inform and enrich each other.
-
-Based in Frankfurt, Germany, she maintains multiple creative projects:
-
-- **[Lit](https://lit.anbuu.in)** - Poetry and literary verses (you are here!)
-- **[Fluid](https://fluid.anbuu.in)** - Technical writing and software engineering insights
-- **[Gush](https://gush.anbuu.in)** - Writing inspiration prompts app
-- **[Fable](https://fable.anbuu.in)** - German language learning with stories
-
 ## Philosophy
 
 Poetry is not an escape from the technical world—it's a deeper engagement with it. Code and verse both seek precision, meaning, and elegance. Both are attempts to capture something true in structured form.
@@ -40,9 +29,6 @@ This blog celebrates that duality: the logical and the lyrical, the analytical a
 ## Get in Touch
 
 **Email**: [hi@anbuu.in](mailto:hi@anbuu.in)
-**GitHub**: [@anbarasiu](https://github.com/anbarasiu)
-**Twitter**: [@anbarasiu](https://twitter.com/anbarasiu)
-**Main Site**: [anbuu.in](https://anbuu.in)
 
 ## About This Blog
 
